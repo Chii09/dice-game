@@ -1,5 +1,10 @@
 import random
 
+#追加1
+name = input("What is your name?\n> ")
+print(f"Hello, {name}!")
+#追加1
+
 print("Rolling dice...")
 die1 = random.randint(1, 6)
 die2 = random.randint(1, 6)
